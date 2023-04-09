@@ -1,0 +1,71 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  width: calc(100vw);
+  height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.logo {
+  padding: 8px;
+}
+
+.header {
+  background-color: #01368a;
+  color: #fff;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.hero__container {
+  height: 100vh;
+  width: 100vw;
+  background: url(/photo_2023-04-02_14-57-47.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__title {
+  position: fixed;
+  top: 70%;
+  left: 30%;
+  padding: 4px 8px;
+  color: #fff;
+  background-color: rgba(1, 54, 138, 0.7);
+}
